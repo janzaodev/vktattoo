@@ -6,11 +6,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Contato</title>
     <style>
+        body{
+        
+        }
         main{
-            margin: auto;
+            padding: 150px;
             background-color: rgba(0, 0, 0, 0.322);
 
         }
+        div {
+            align-items: center;
+        }
+        main> div> a {
+            display: block;
+            padding:40px;
+            text-decoration: none;
+            padding-bottom: 50px;
+        }
+        div.tel >img{
+            height: 80px;
+            width: 80px;
+        }
+        a.whatsapp::before{
+            content: url(imagens/whatsapp.png);
+            
+        }
+        
     </style>
 </head>
 <body>
@@ -25,9 +46,9 @@
     </header>
     <main>
         <div>
-            <strong>Tel:</strong>
-            <strong>Tel:</strong>
-            <strong>Tel:</strong>
+            <div class="tel"><img src="imagens/viber (1).png" alt="telefone"><a href="tel:+817076692004" target="_blank">Tel:070-7669-2004</a></div>
+            <a href="https://wa.me/817076692004" target="_blank" class="whatsapp">WhatsApp, Clique aqui!</a>
+            <a href="https://www.instagram.com/vk_tattoos_/" target="_blank">Perfil do Instagram</a>
         </div>
     </main>
     
