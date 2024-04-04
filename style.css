@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'gang2';
+    src: url(fonts/go3v2.ttf) format('truetype');
+}
+:root{
+    --fonte-gang:'gang2', sans-serif;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+    background-image: url(imagens/Snapinsta.app_366462480_812182113744285_9008111810028487255_n_1080.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+img#banner{
+    block-size: 15vh;
+}
+nav{
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+nav >a{
+    padding: 15px;
+    font-family: var(--fonte-gang);
+    text-decoration: none;
+}
+article{
+    padding: 20px;
+    width: 400px; 
+    margin-left: 50px;
+    text-align: justify;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+
+h1{
+    text-align: left;
+}
