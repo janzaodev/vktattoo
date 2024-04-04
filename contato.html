@@ -7,26 +7,30 @@
     <title>Contato</title>
     <style>
         body{
-        
+            margin: 0px;
+            padding: 0px;
         }
         main{
-            padding: 150px;
+            margin: auto;
+            min-width: 300px;
+            max-width: 1000px;
+            height: 100vh;
             background-color: rgba(253, 253, 253, 0.226);
-
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
         }
         div {
-            align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding: 50px;
         }
         main> div> a{
-            display: block;
-            padding:40px;
-            text-decoration: none;
-            padding-bottom: 50px;
+            
         }
         div.tel >img{
             height: 80px;
             width: 80px;
-
         }
         div.whatsapp >img{
             height: 80px;
@@ -36,25 +40,34 @@
             height: 80px;
             width: 80px;
         }
+        .contato{
+            width:150px;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
+            <a href="index.html" target="_top">Home</a>
             <a href="galeria.html" target="_self">Galeria</a>
             <img id="banner" src="imagens/vktattoo.png" alt="banner">
             <a href="contato.html" target="_self">Contato</a>
-            <a href="#">Social</a>
+            <a href="#">Faq</a>
         </nav>
     </header>
     <main>
         <div>
-            <div class="tel"><img src="imagens/vibe.png" alt="telefone"><a href="tel:+817076692004" target="_blank">Tel:070-7669-2004</a></div>
-            <div class="whatsapp"><img src="imagens/whatsapp.png" alt="whatsapp"><a href="https://wa.me/817076692004" target="_blank">WhatsApp, Clique aqui!</a></div>
-            <div class="instagram"><img src="imagens/instagram.png" alt=""><a href="https://www.instagram.com/vk_tattoos_/" target="_blank">Perfil do Instagram</a></div>
+            <div class="tel"><img src="imagens/viber.png" alt="telefone"><a href="tel:+817076692004" target="_blank" class="contato">Tel:070-7669-2004</a></div>
+            <div class="whatsapp"><img src="imagens/whatsapp.png" alt="whatsapp"><a href="https://wa.me/817076692004" target="_blank" class="contato">WhatsApp clique aqui!</a></div>
+            <div class="instagram"><img src="imagens/instagram.png" alt=""><a href="https://www.instagram.com/vk_tattoos_/" target="_blank" class="contato">Perfil do Instagram</a></div>
         </div>
     </main>
+    <footer>
+        <p>Site criado por <a href="https://janzaodev.github.io/" target="_blank">@janzaodev</a>Todos os direitos reservados.</p>
+    </footer>
     
 </body>
 </html>
